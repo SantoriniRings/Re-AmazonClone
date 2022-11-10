@@ -1,0 +1,28 @@
+.container-profile {
+    padding: 20px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.datos-basicos {
+    display: grid;
+    grid-template-rows: 1fr;
+    padding: 20px;
+    height: 100vh;
+}
+
+.datos-basicos label {
+    margin-top: 10px;
+}
+
+.configuracion {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+}
